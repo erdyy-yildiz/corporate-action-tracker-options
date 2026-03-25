@@ -1,6 +1,6 @@
 # OCC Scanner
 
-When a company does a stock split, merger, or spinoff, your options contracts change. The OCC publishes memos about this — but most traders never see them. By the time they notice something is wrong, it's too late to act.
+When a company does a stock split, merger, or spinoff, your options contracts change. The OCC publishes memos about this but most traders never see them. By the time they notice something is wrong, it's too late to act.
 
 This skill watches the OCC website for you. Every day it checks for new memos on the stocks you hold options on. When it finds one, it sends you a plain-English alert explaining exactly what changed and what you need to do.
 
@@ -10,7 +10,7 @@ Say you hold a covered call on a stock that does a reverse split. Overnight:
 
 - Your option gets a new symbol
 - The number of shares you need as collateral drops
-- The contract becomes very hard to trade — wide spreads, few buyers
+- The contract becomes very hard to trade wide spreads, few buyers
 - You can no longer open new positions, only close
 
 None of this shows up as a notification from your broker. You have to know to look for it. This skill looks for it automatically.
